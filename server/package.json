@@ -1,0 +1,25 @@
+{
+  "name": "yafe-lee-shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Dorin Yafe",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-jwt": "^5.3.1",
+    "fs": "0.0.1-security",
+    "joi": "^14.3.1",
+    "md5": "^2.2.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.3",
+    "uuid": "^8.0.0"
+  }
+}

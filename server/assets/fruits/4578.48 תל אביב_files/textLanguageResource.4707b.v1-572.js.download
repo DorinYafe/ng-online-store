@@ -1,0 +1,30 @@
+/**
+ * Created by yonizilberman on 6/23/15.
+ *
+ *
+ *   LanguageResource.getText('email')
+ *
+ *   for more info check this confluence page - https://newrow.atlassian.net/wiki/spaces/SR/pages/627343423/newrow+Translations
+ *
+ *   */
+
+(function(){
+    "use strict";
+
+    var textLangResource = {
+        txt: {},
+
+
+        // function to get the text for the resource
+        getText: function (text) {
+            if (textLangResource.txt[text] === undefined) {
+                // console.log('the key you looking for is not exist in the resource - %c %s ', 'color:yellow; background-color:#222; font-size:12px; font-style: italic;', text);
+                return text;
+            }
+            return textLangResource.txt[text];
+        }
+    };
+
+    window.LanguageResource = textLangResource;
+
+}());

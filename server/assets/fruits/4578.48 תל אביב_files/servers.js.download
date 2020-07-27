@@ -1,0 +1,27 @@
+/**
+  * Created by asifytzhak on 17/12/2016.
+ */
+
+(function(){
+    "use strict";
+
+    var serviceUrl;
+
+    serviceUrl= {
+        domain: {
+            appUrl: 'https://smart.newrow.com/',
+            appAPI: 'https://smart.newrow.com/',
+            siteUrl: 'https://www.newrow.com/'
+        },
+		firebaseConfig: {
+			apiKey: "AIzaSyBl-KSM39FOHbeG9pE1iE_lQ6O5lrVXdq4",
+			authDomain: "prd-newrow.firebaseapp.com",
+			databaseURL: "https://prd-newrow.firebaseio.com",
+			storageBucket: "prd-newrow.appspot.com",
+			messagingSenderId: "78703520849"
+		}
+    };
+
+    window.serviceUrl = serviceUrl;
+
+}());
